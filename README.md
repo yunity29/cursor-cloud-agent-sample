@@ -25,6 +25,15 @@ npm run dev
 npm run build
 ```
 
+## GitHub Pages（スマホから閲覧）
+
+このリポジトリは **GitHub Pages** に自動デプロイできます。
+
+- リポジトリの **Settings → Pages → Build and deployment** で **Source: GitHub Actions** を選択
+- 以降、`main` へのpushで自動デプロイされます
+
+公開URL（project pages）: `https://<GitHubユーザー名>.github.io/<リポジトリ名>/`
+
 ## 開発メモ
 
 - `src/data/mockMarket.js`: モックデータ生成
